@@ -41,15 +41,15 @@
     "paths": {
       "*": ["src/*"],
       "@components/*": ["src/components/*"],
-      "@helpers/*": ["./src/helpers/*"],
-      "@navigation/*": ["./src/navigation/*"],
-      "@screens/*": ["./src/screens/*"],
-      "@storage/*": ["./src/storage/*"],
-      "@types/*": ["./src/types/*"],
-      "@assets/*": ["./src/assets/*"],
-      "@data/*": ["./src/data/*"],
-      "@hooks/*": ["./src/hooks/*"],
-      "@theme/*": ["./src/theme/*"],
+      "@helpers/*": ["src/helpers/*"],
+      "@navigation/*": ["src/navigation/*"],
+      "@screens/*": ["src/screens/*"],
+      "@storage/*": ["src/storage/*"],
+      "@types/*": ["src/types/*"],
+      "@assets/*": ["src/assets/*"],
+      "@data/*": ["src/data/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@theme/*": ["src/theme/*"],
     },                           /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
     // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
     // "typeRoots": [],                       /* List of folders to include type definitions from. */
