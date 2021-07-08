@@ -16,6 +16,7 @@ module.exports = {
           '@assets': './src/assets',
           '@data': './src/data',
           '@hooks': './src/hooks',
+          '@theme': './src/theme',
         },
       },
     ],
