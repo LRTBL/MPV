@@ -1,10 +1,30 @@
 import * as React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
+import {
+  createStackNavigator,
+  StackScreenProps,
+  StackNavigationProp,
+} from '@react-navigation/stack';
 
 import SignInScreen from '@screens/Login/SignIn/SignInScreen';
 import SignUp from './SignUp';
 
-const {Screen, Navigator} = createStackNavigator();
+type AuthStackParamList = {
+  SignIn: undefined;
+  Register: undefined;
+};
+
+export type SignInProps = StackScreenProps<AuthStackParamList, 'SignIn'>;
+export type SignInNavigation = StackNavigationProp<
+  AuthStackParamList,
+  'SignIn'
+>;
+export type RegisterProps = StackScreenProps<AuthStackParamList, 'Register'>;
+export type RegisterNavigation = StackNavigationProp<
+  AuthStackParamList,
+  'Register'
+>;
+
+const {Screen, Navigator} = createStackNavigator<AuthStackParamList>();
 
 const Auth = () => {
   return (

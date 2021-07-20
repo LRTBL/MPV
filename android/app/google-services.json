@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929312770180",
+    "project_id": "mesapartesvirtual-a3672",
+    "storage_bucket": "mesapartesvirtual-a3672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929312770180:android:3b8b72ec42260bdec8dad1",
+        "android_client_info": {
+          "package_name": "com.mpv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929312770180-riqmfqliibpff81ul7vr6riav3b3on7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQGhH4V1hBbKhnGO0EySu6oVbTMXrFYck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929312770180-riqmfqliibpff81ul7vr6riav3b3on7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

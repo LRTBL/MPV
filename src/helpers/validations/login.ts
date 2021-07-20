@@ -22,7 +22,6 @@ export const signInValidation = (
   } else {
     passwordError = '';
   }
-
   if (
     emailError !== '' ||
     passwordError !== '' ||

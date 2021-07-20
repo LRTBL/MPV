@@ -36,6 +36,14 @@
 		13C494C429DE48B0B4B578CA /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7698F0CF7FB6476FA1FDA148 /* Octicons.ttf */; };
 		98BAC747A0784591BEE325D7 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4CC04A88DF496FAD58178E /* SimpleLineIcons.ttf */; };
 		5BE653DFC0CE4F7698B6BB18 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08047748FE82460881B4B244 /* Zocial.ttf */; };
+		4BEFD5D3E33E45188812FB78 /* AktivGroteskCorp-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBE6F8C0B2D64E9CB4ABD14A /* AktivGroteskCorp-Bold.ttf */; };
+		F21FE828BF274C8E9539C502 /* AktivGroteskCorp-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7D6D08F0A11412A97DF4BCA /* AktivGroteskCorp-BoldItalic.ttf */; };
+		339B28D2D44B4B3FBC43F013 /* AktivGroteskCorp-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C78357876C841F08F3D2247 /* AktivGroteskCorp-Italic.ttf */; };
+		1F090B4AEDD24D1884D9E431 /* AktivGroteskCorp-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1EE27F9047647EB84BB90FD /* AktivGroteskCorp-Light.ttf */; };
+		E3CF937FE5FF49338C357198 /* AktivGroteskCorp-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F62170BC24CF4709B09A19BB /* AktivGroteskCorp-LightItalic.ttf */; };
+		01F59CA27165432EA58E8284 /* AktivGroteskCorp-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D165059D9834053A229E652 /* AktivGroteskCorp-Medium.ttf */; };
+		2E014D8B43D84781B42A3F1A /* AktivGroteskCorp-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B6FD4A412FE4C349DE32C71 /* AktivGroteskCorp-MediumItalic.ttf */; };
+		7F76A7EA69184836B5D33182 /* AktivGroteskCorp-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 666C881FBE0D4189A6E05314 /* AktivGroteskCorp-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +92,14 @@
 		7698F0CF7FB6476FA1FDA148 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		CC4CC04A88DF496FAD58178E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		08047748FE82460881B4B244 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DBE6F8C0B2D64E9CB4ABD14A /* AktivGroteskCorp-Bold.ttf */ = {isa = PBXFileReference; name = "AktivGroteskCorp-Bold.ttf"; path = "../resources/fonts/AktivGroteskCorp-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7D6D08F0A11412A97DF4BCA /* AktivGroteskCorp-BoldItalic.ttf */ = {isa = PBXFileReference; name = "AktivGroteskCorp-BoldItalic.ttf"; path = "../resources/fonts/AktivGroteskCorp-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C78357876C841F08F3D2247 /* AktivGroteskCorp-Italic.ttf */ = {isa = PBXFileReference; name = "AktivGroteskCorp-Italic.ttf"; path = "../resources/fonts/AktivGroteskCorp-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1EE27F9047647EB84BB90FD /* AktivGroteskCorp-Light.ttf */ = {isa = PBXFileReference; name = "AktivGroteskCorp-Light.ttf"; path = "../resources/fonts/AktivGroteskCorp-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F62170BC24CF4709B09A19BB /* AktivGroteskCorp-LightItalic.ttf */ = {isa = PBXFileReference; name = "AktivGroteskCorp-LightItalic.ttf"; path = "../resources/fonts/AktivGroteskCorp-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D165059D9834053A229E652 /* AktivGroteskCorp-Medium.ttf */ = {isa = PBXFileReference; name = "AktivGroteskCorp-Medium.ttf"; path = "../resources/fonts/AktivGroteskCorp-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B6FD4A412FE4C349DE32C71 /* AktivGroteskCorp-MediumItalic.ttf */ = {isa = PBXFileReference; name = "AktivGroteskCorp-MediumItalic.ttf"; path = "../resources/fonts/AktivGroteskCorp-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		666C881FBE0D4189A6E05314 /* AktivGroteskCorp-Regular.ttf */ = {isa = PBXFileReference; name = "AktivGroteskCorp-Regular.ttf"; path = "../resources/fonts/AktivGroteskCorp-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +216,14 @@
 				7698F0CF7FB6476FA1FDA148 /* Octicons.ttf */,
 				CC4CC04A88DF496FAD58178E /* SimpleLineIcons.ttf */,
 				08047748FE82460881B4B244 /* Zocial.ttf */,
+				DBE6F8C0B2D64E9CB4ABD14A /* AktivGroteskCorp-Bold.ttf */,
+				F7D6D08F0A11412A97DF4BCA /* AktivGroteskCorp-BoldItalic.ttf */,
+				1C78357876C841F08F3D2247 /* AktivGroteskCorp-Italic.ttf */,
+				E1EE27F9047647EB84BB90FD /* AktivGroteskCorp-Light.ttf */,
+				F62170BC24CF4709B09A19BB /* AktivGroteskCorp-LightItalic.ttf */,
+				9D165059D9834053A229E652 /* AktivGroteskCorp-Medium.ttf */,
+				5B6FD4A412FE4C349DE32C71 /* AktivGroteskCorp-MediumItalic.ttf */,
+				666C881FBE0D4189A6E05314 /* AktivGroteskCorp-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -319,6 +343,14 @@
 				13C494C429DE48B0B4B578CA /* Octicons.ttf in Resources */,
 				98BAC747A0784591BEE325D7 /* SimpleLineIcons.ttf in Resources */,
 				5BE653DFC0CE4F7698B6BB18 /* Zocial.ttf in Resources */,
+				4BEFD5D3E33E45188812FB78 /* AktivGroteskCorp-Bold.ttf in Resources */,
+				F21FE828BF274C8E9539C502 /* AktivGroteskCorp-BoldItalic.ttf in Resources */,
+				339B28D2D44B4B3FBC43F013 /* AktivGroteskCorp-Italic.ttf in Resources */,
+				1F090B4AEDD24D1884D9E431 /* AktivGroteskCorp-Light.ttf in Resources */,
+				E3CF937FE5FF49338C357198 /* AktivGroteskCorp-LightItalic.ttf in Resources */,
+				01F59CA27165432EA58E8284 /* AktivGroteskCorp-Medium.ttf in Resources */,
+				2E014D8B43D84781B42A3F1A /* AktivGroteskCorp-MediumItalic.ttf in Resources */,
+				7F76A7EA69184836B5D33182 /* AktivGroteskCorp-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

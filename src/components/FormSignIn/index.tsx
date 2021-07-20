@@ -5,7 +5,11 @@ import {ButtonForm} from '@components/Buttons';
 import MessageError from '@components/MessageError';
 import {useForm} from '@hooks/useForm';
 import {useErrorForm} from '@hooks/useErrorForm';
+import {useNavigation} from '@react-navigation/native';
 import {signInValidation} from '@helpers/validations/login';
+import {loginUser} from '@actions/authAction';
+import {useAuth} from '@context/authContext';
+import {SignInNavigation} from '@navigation/auth';
 import {styles} from './formSignIn.styles';
 
 export interface FormSignInValues {
@@ -19,6 +23,9 @@ export interface FormSignInErrorValues {
 }
 
 const FormSignIn = () => {
+  const navigation = useNavigation<SignInNavigation>();
+  const {dispatch} = useAuth();
+  const [isLoading, setIsLoading] = React.useState<boolean>(false);
   const {form, onReset, onChange} = useForm<FormSignInValues>({
     email: '',
     password: '',
@@ -35,9 +42,9 @@ const FormSignIn = () => {
     if (validationLogin) {
       onChangeError(validationLogin);
     } else {
+      loginUser(dispatch, setIsLoading, form);
       onReset();
       onResetError();
-      // loginUser(dispatchUi, dispatchAuth, form, handleOpen, navigator);
     }
   };
 
@@ -73,8 +80,10 @@ const FormSignIn = () => {
       <TouchableOpacity style={styles.forgotContainer}>
         <Text style={styles.forgotText}>¿Olvídaste tu contraseña?</Text>
       </TouchableOpacity>
-      <ButtonForm title="Ingresar" action={handleLogin} />
-      <TouchableOpacity style={styles.signUpContainer}>
+      <ButtonForm title="Ingresar" action={handleLogin} loading={isLoading} />
+      <TouchableOpacity
+        style={styles.signUpContainer}
+        onPress={() => navigation.navigate('Register')}>
         <Text style={styles.signUpText}>¿No tienes cuenta? Registrate</Text>
       </TouchableOpacity>
     </ScrollView>

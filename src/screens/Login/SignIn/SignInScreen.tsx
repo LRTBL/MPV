@@ -8,13 +8,14 @@ import {
 } from 'react-native';
 import FormSignIn from '@components/FormSignIn';
 import {PRI_COLOR} from '@theme/colors';
+import stylesAuth from '@theme/index';
 
 const SignInScreen = () => {
   return (
     <KeyboardAvoidingView
-      style={styles.keyboardView}
+      style={stylesAuth.authKeyboardView}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
-      <View style={styles.sectionContainer}>
+      <View style={stylesAuth.authSectionContainer}>
         <FormSignIn />
       </View>
       <Text style={styles.versionApp}>1.0.1</Text>
@@ -23,15 +24,8 @@ const SignInScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  keyboardView: {
-    flex: 1,
-  },
-  sectionContainer: {
-    flex: 1,
-    backgroundColor: 'white',
-  },
   versionApp: {
-    backgroundColor: 'white',
+    backgroundColor: '#f2f2f2',
     height: '5%',
     paddingRight: '5%',
     paddingLeft: '5%',
